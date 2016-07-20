@@ -17,4 +17,4 @@ ${IT_HOME}/scripts/user/enqueue_compss \
   /home/bsc31/bsc31991/workspace_pycompss/matmul_objects.py $3 $4
 
 # 2x2 blocks of size 8x8 = 16x16 matrix
-# ./launch_matmul.sh 2 30 2 8
+# ./Launch.matmul.Marenostrum.sh 2 30 2 8
