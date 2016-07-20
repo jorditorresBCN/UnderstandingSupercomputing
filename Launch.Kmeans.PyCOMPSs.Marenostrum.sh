@@ -11,8 +11,8 @@ ${IT_HOME}/scripts/user/enqueue_compss \
   --pythonpath=/home/bsc31/bsc31991/workspace_pycompss/ \
   --library_path=/gpfs/apps/MN3/INTEL/mkl/lib/intel64 \
   --comm="integratedtoolkit.nio.master.NIOAdaptor" \
-  --tracing=true \ # paraver traces
-  --graph=true \   # workflow graph 
+  --tracing=true \
+  --graph=true \
   /home/bsc31/bsc31991/workspace_pycompss/kmeans.py $3 $4 $5 $6
 # change "/home/bsc31/bsc31991/workspace_pycompss/" to a proper path according your account at Marenostrum
 
