@@ -14,6 +14,7 @@ ${IT_HOME}/scripts/user/enqueue_compss \
   --tracing=true \
   --graph=true \
   /home/bsc31/bsc31991/workspace_pycompss/kmeans.py $3 $4 $5 $6
+# change "/home/bsc31/bsc31991/workspace_pycompss/" to a proper path according your account at Marenostrum
 
-# 20480 points, 3 dimensions, 10 centers and 256 fragments
-# ./launch_kmeans.sh 2 15 20480 3 10 256
+# Example with 20480 points, 3 dimensions, 10 centers and 256 fragments
+# ./Launch.Kmeans.PyCOMPSs.Marenostrum.sh 2 15 20480 3 10 256
