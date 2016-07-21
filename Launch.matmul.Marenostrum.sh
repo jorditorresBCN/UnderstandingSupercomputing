@@ -14,7 +14,7 @@ ${IT_HOME}/scripts/user/enqueue_compss \
   --comm=integratedtoolkit.nio.master.NIOAdaptor \
   --tracing=true \
   --graph=true \
-  /home/bsc31/bsc31991/workspace_pycompss/matmul.py $3 $4
+  /home/bsc31/bsc31991/workspace_pycompss/matmul.PyCOMPSs.py $3 $4
 
 # 2x2 blocks of size 8x8 = 16x16 matrix
 # ./Launch.matmul.Marenostrum.sh 2 30 2 8
