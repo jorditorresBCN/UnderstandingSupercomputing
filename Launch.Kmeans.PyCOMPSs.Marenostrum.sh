@@ -13,7 +13,7 @@ ${IT_HOME}/scripts/user/enqueue_compss \
   --comm="integratedtoolkit.nio.master.NIOAdaptor" \
   --tracing=true \
   --graph=true \
-  /home/bsc31/bsc31991/workspace_pycompss/kmeans.py $3 $4 $5 $6
+  /home/bsc31/bsc31991/workspace_pycompss/kmeans.PyCOMPSs.py $3 $4 $5 $6
 # change "/home/bsc31/bsc31991/workspace_pycompss/" to a proper path according your account at Marenostrum
 
 # Example with 20480 points, 3 dimensions, 10 centers and 256 fragments
